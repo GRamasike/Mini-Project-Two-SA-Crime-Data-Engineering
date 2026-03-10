@@ -60,7 +60,7 @@ Arrested <br>
 FROM criminalcases <br>
 GROUP BY Arrested; <br>
 ## 🏆Most Common Crime Type <br>
-SELECCT TOP 1 <br>
+SELECT TOP 1 <br>
 COUNT (RecordID) AS Number_of_Cases, <br>
 CrimeType <br>
 FROM criminalcases <br>
