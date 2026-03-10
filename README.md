@@ -41,14 +41,14 @@ SELECT <br>
 SUM (EstimatedFraudAmount_ZAR) AS Total_Estimated_Fraud_Amount,<br>
 Province <br>
 FROM criminalcases <br>
-GROUP BY Province <br>
+GROUP BY Province; <br>
 
 ## ⚖️ Arrested vs Not Arrested Distrubution <br>
 SELECT <br>
 COUNT (RecordID) AS Number_of_Suspects,<br>
 Arrested <br>
 FROM criminalcases <br>
-GROUP BY Arrested <br>
+GROUP BY Arrested; <br>
 ## 🏆Most Common Crime Type <br>
 SELECCT TOP 1 <br>
 COUNT (RecordID) AS Number_of_Cases, <br>
@@ -63,7 +63,7 @@ ORDER BY Number_of_Cases DESC;
 ⚖️ The conviction rate analysis shows 21.7% of cases resulted in conviction.
 
 # 🛠️ Tools Used
--SQL Server - database creations and querying <br>
+- SQL Server - database creations and querying <br>
 - SSMS (SQL Server Management Studio) - query development and testing <br>
 
 # 👤 About Me
