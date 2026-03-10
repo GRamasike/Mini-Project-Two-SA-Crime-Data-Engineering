@@ -58,10 +58,18 @@ FROM criminal_data <br>
 ORDER BY Number_of_Cases DESC;
 
 ## 📊Key Insight <br>
-- Northern Cape recorded the highest number of criminal cases. <br>
-- Cybercrime was the most common crime type. <br>
-- High risk cases accounted for 3.3% of total fraud amount. <br>
-- The conviction rate analysis shows 21.7% of cases resulted in conviction.
+🗺️ Northern Cape recorded the highest number of criminal cases. <br>
+💻 Cybercrime was the most common crime type. <br>
+💸 High risk cases accounted for 3.3% of total fraud amount. <br>
+⚖️ The conviction rate analysis shows 21.7% of cases resulted in conviction.
+
+# 🛠️ Tools Used
+-SQL Server - database creations and querying <br>
+- SSMS (SQL Server Management Studio) - query development and testing <br>
+
+# 👤 About Me
+I'm an aspiring SQL Developer / Data Engineer building hands-on projects to develop real-world skills in database design, querying, and data pipelines. I enjoy working close to the data itself — structuring it, querying it, and making it reliable — and I'm actively working towards a career in SQL development or data engineering.
+This project is part of my growing portfolio.
 
 
 
