@@ -18,10 +18,7 @@ USE criminalcases; <br>
 
 ## 📂 Repository Structure
 The 30 queries are split across three files, organised by difficulty level to show progression in SQL complexity: <br>
-File : CriminalCases_Foundations.sql 🟢 Beginner Basic SELECT statements, simple filters, and introductory aggregations <br>
-File : CriminalCases_Exploration.sql 🟡 Intermediate Ranking, grouping, date filtering, and multi-condition queries <br>
-File : CriminalCases_Analysis.sql    🔴 Advanced Aggregations, distributions, financial analysis, and deeper insights
-
+FileLevelDescriptionCriminalCases_Foundations.sql🟢 BeginnerBasic SELECT statements, simple filters, and introductory aggregationsCriminalCases_Exploration.sql🟡 IntermediateRanking, grouping, date filtering, and multi-condition queriesCriminalCases_Analysis.sql🔴 AdvancedAggregations, distributions, financial analysis, and deeper insights
 Main table: criminal_data - 1 000 rows of criminal case records
 ## 🔍 Key SQL Skills Demonstrated <br>
 - SELECT statements
