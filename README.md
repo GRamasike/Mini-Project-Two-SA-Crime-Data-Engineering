@@ -16,10 +16,17 @@ The objective was to answer 30 analytical business questions using SQL queries.<
 CREATE DATABASE PoliceCase; <br>
 USE criminalcases; <br>
 
+Main table: criminal_data - 1 000 rows of criminal case records
 ## 📂 Repository Structure
 The 30 queries are split across three files, organised by difficulty level to show progression in SQL complexity: <br>
-FileLevelDescriptionCriminalCases_Foundations.sql🟢 BeginnerBasic SELECT statements, simple filters, and introductory aggregationsCriminalCases_Exploration.sql🟡 IntermediateRanking, grouping, date filtering, and multi-condition queriesCriminalCases_Analysis.sql🔴 AdvancedAggregations, distributions, financial analysis, and deeper insights
-Main table: criminal_data - 1 000 rows of criminal case records
+
+CriminalCases_Foundations.sql 🟢 Beginner Basic SELECT statements, simple filters, and introductory aggregations <br>
+
+CriminalCases_Exploration.sql 🟡 Intermediate Ranking, grouping, date filtering, and multi-condition queries <br>
+
+CriminalCases_Analysis.sql 🔴 Advanced Aggregations, distributions, financial analysis, and deeper insights
+
+
 ## 🔍 Key SQL Skills Demonstrated <br>
 - SELECT statements
 - WHERE filtering
